@@ -141,3 +141,4 @@ class AttnDecoderLSTM(nn.Module):
         h0 = torch.randn(1, 1, self.hid_state_size, device=device) #.view(-1, 1, self.hidden_size)
         c0 = torch.randn(1, 1, self.hid_state_size, device=device) #.view(-1, 1, self.hidden_size)
         return h0, c0
+

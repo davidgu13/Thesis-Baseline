@@ -101,3 +101,4 @@ if __name__=='__main__':
     # Encode and build a basic network - Embedding + LSTM.
 
     # Train and measure error with Edit distance.
+
